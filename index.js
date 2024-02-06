@@ -44,11 +44,17 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data, fileName ='README.md') {
+    console.log(data);
 }
+
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const readmeContent = generateMarkdown(answers);
+        writeToFile(readmeContent, 'README.md');
+      });
 
 }
 
