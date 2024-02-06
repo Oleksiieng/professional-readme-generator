@@ -1,8 +1,8 @@
-# project
+# Professional README Generator
   
   ## Description
   
-  descriptiom
+  This command-line application dynamically generates a professional README.md file from user input
   
   ## Table of Contents (Optional)
   
@@ -14,19 +14,19 @@
   
   ## Installation
   
-  fdfsdkfsdopk
+  1) git clone git@github.com:Oleksiieng/professional-readme-generator.git 2) cd professional-readme-generator 3) npm install
   
   ## Usage
   
-  df dsfdsf[pdsf[plf[plfs[dpf
+  node index.js
   
   ## Contributing
   
-  osodkfpsodkfpdokfsdpf
+  none
   
   ## Tests
   
-  sdfdskfsdkf]skmfsdkmsdkfsd#
+  none
   
   ## License
   
